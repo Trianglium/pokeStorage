@@ -39,6 +39,9 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "ps_auth",
+    "collection",
+    "pokedex",
+    "pokeapi",
 ]
 
 MIDDLEWARE = [
