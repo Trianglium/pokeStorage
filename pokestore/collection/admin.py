@@ -1,3 +1,6 @@
 from django.contrib import admin
+from .models import Tag, Collection, TrainerProfile
 
-# Register your models here.
+admin.site.register(Tag)
+admin.site.register(Collection)
+admin.site.register(TrainerProfile)
