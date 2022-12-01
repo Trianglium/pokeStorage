@@ -11,8 +11,13 @@ for i in data:
         fields[i] = t
     else:
         if isinstance(t, list):
+            print('\t', t)
         
-        elif isinstance(t, list):
+        elif isinstance(t, dict):
+            print('\t', t.keys())
+
+        else: 
+            print(type(t), t)
 
 
 
