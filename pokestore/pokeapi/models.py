@@ -19,3 +19,18 @@ class Form():
 class GameIndice():
     def __init__(self, data):
         self.name = data["name"]
+# height
+# held_items
+class Item():
+    def __init__(self):
+        pass
+# id
+# is_default
+# location_area_encounters
+class LocationArea():
+    def __init__(self):
+        pass
+# moves
+class Move():
+    def __init__(self):
+        pass
