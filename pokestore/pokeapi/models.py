@@ -49,3 +49,13 @@ class Species():
 class Sprite():
     def __init__(self):
         pass
+
+# stats
+class Stat():
+    def __init__(self):
+        pass
+# types
+class Type():
+    def __init__(self):
+        pass
+# weight
