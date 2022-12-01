@@ -18,6 +18,7 @@ class Tag(models.Model):
 class Collection(models.Model):
     name = models.TextField(blank=True)
     pokemon = models.JSONField()
+    tags = models.ManyToManyField(Tag, related_name="collections")
 
     def __str__(self):
         return self.name
