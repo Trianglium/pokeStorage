@@ -34,3 +34,18 @@ class LocationArea():
 class Move():
     def __init__(self):
         pass
+
+# name
+
+# order
+
+# past_types
+
+# species
+class Species():
+    def __init__(self):
+        pass
+# sprites
+class Sprite():
+    def __init__(self):
+        pass
