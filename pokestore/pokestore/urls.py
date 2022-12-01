@@ -19,4 +19,6 @@ from django.urls import path, include
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("u/", include("ps_auth.urls")),
+    path("pokedex/", include("pokedex.urls"))
+    path("collection/", include("collection.urls"))
 ]
