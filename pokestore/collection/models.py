@@ -5,6 +5,7 @@ from django.contrib.contenttypes.models import ContentType
 from versatileimagefield.fields import VersatileImageField, PPOIField
 from django.conf import settings
 
+
 class Tag(models.Model):
     value = models.TextField(max_length=100, unique=True)
 
@@ -22,6 +23,7 @@ class Collection(models.Model):
 
     def __str__(self):
         return self.name
+
 
 class TrainerProfile(models.Model):
     user = models.OneToOneField(

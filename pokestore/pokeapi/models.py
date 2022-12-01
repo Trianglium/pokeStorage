@@ -1,7 +1,6 @@
-
 # abilities
 # {"ability":{"name":"synchronize","url":"https://pokeapi.co/api/v2/ability/28/"},"is_hidden":false,"slot":1}
-class Ability():
+class Ability:
     def __init__(self, data):
         self.name = data["name"]
         self.url = data["url"]
@@ -12,28 +11,37 @@ class Ability():
 # base_experience
 
 # forms
-class Form():
+class Form:
     def __init__(self, data):
         self.name = data["name"]
+
+
 # game_indices
-class GameIndice():
+class GameIndice:
     def __init__(self, data):
         self.name = data["name"]
+
+
 # height
 # held_items
-class Item():
+class Item:
     def __init__(self):
         pass
+
+
 # id
 # is_default
 # location_area_encounters
-class LocationArea():
+class LocationArea:
     def __init__(self):
         pass
+
+
 # moves
-class Move():
+class Move:
     def __init__(self):
         pass
+
 
 # name
 
@@ -42,20 +50,27 @@ class Move():
 # past_types
 
 # species
-class Species():
-    def __init__(self):
-        pass
-# sprites
-class Sprite():
+class Species:
     def __init__(self):
         pass
 
+
+# sprites
+class Sprite:
+    def __init__(self):
+        pass
+
+
 # stats
-class Stat():
+class Stat:
     def __init__(self):
         pass
+
+
 # types
-class Type():
+class Type:
     def __init__(self):
         pass
+
+
 # weight
